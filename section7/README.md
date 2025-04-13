@@ -4,7 +4,8 @@
 
 ```sql
 -- Login to MySQL
-mysql -u root -p
+
+mysql -u root -p --socket=/opt/lampp/var/mysql/mysql.sock
 
 -- Create a new database
 CREATE DATABASE company;
